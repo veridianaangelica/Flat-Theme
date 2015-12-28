@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
+*{outline: 1px solid red;}
 .clearfix {
   *zoom: 1;
 }
@@ -12,6 +13,32 @@
 }
 .clearfix:after {
   clear: both;
+}
+
+
+/*menu*/
+
+.navbar-default {
+    background-color: #444565;
+    
+}
+
+.portada 
+{
+	background: url(../images/slider/bg1.jpg);
+height: 700px;
+width: 100%;
+}
+
+.portada h2,p
+{
+color: white;
+margin-left: 60px;
+}
+
+.portada h2
+{
+	margin-top: 350px;
 }
 /*aqui empiza container_clients*/
 .container_clients{
@@ -62,4 +89,5 @@
 #hijo{
 	text-align: center;
 	margin-top: 10%;
+
 }

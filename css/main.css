@@ -15,6 +15,7 @@
   clear: both;
 }
 
+
 /*menu*/
 
 .navbar-default {
@@ -38,4 +39,43 @@ margin-left: 60px;
 .portada h2
 {
 	margin-top: 350px;
+}
+/*aqui empiza container_clients*/
+.container_clients{
+	background-color: #FA5858;
+	color:white;
+	height: 400px;
+}
+.centrado{
+	text-align: center;
+}
+.linea{
+	background-color: white;
+	width: 5px;
+	height: 65px;
+}
+.container_company{
+	background-color: #2E2E2E;
+	color:#848484;
+
+}
+.company{
+	list-style: none;
+	padding: 0;
+}
+.blog{
+	padding: 0;
+}
+
+
+/*aqui termina container_clients*/
+
+.container_about{
+	background-color: #04B45F;
+	color:white;
+}
+#hijo{
+	text-align: center;
+	margin-top: 10%;
+
 }

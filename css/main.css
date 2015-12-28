@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
-
+*{outline: 1px solid red;}
 .clearfix {
   *zoom: 1;
 }
@@ -22,7 +22,14 @@
 	background-color: #444565;
 }
 
+.container-menu{
+	width: 1260px;
+}
 
+.container-menu img
+{
+	margin-top: 10px;
+}
 
 .container-menu li {
     background-color: #444565;
@@ -32,14 +39,14 @@
 .portada 
 {
 	background: url(../images/slider/bg1.jpg);
-height: 400px;
+height: 493px;
 width: 1260px;
 }
 
 .portada h2,p
 {
 color: white;
-margin-left: 30px;
+margin-left: 80px;
 }
 .file
 {
@@ -49,8 +56,26 @@ margin-left: 30px;
 
 .portada h2
 {
-	margin-top: 350px;
+	margin-top: 200px;
 }
+
+.row
+{
+	width: 1260px;
+}
+
+
+
+.container-redes
+{
+	background-color: #4CBD4D;
+	height: 200px;
+	widows: 200px;
+}
+
+
+
+
 /*aqui empiza container_clients*/
 .container_clients{
 	background-color: #FA5858;

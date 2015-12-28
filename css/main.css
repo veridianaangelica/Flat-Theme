@@ -39,7 +39,19 @@
 .blog{
 	padding: 0;
 }
-
+.list{
+	list-style: none;
+}
+.list li{
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+}
+.footer{
+	background-color: #151515;
+	color: #848484;
+	height: 100px;
+}
 
 /*aqui termina container_clients*/
 

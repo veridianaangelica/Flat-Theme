@@ -22,6 +22,11 @@
    
 }
 
+.portada
+{
+	height: 492px;
+}
+
 
 .portada h2,p
 {
@@ -43,7 +48,7 @@ margin-bottom: 30px
 /*container-redes-sociales*/
 .container-redes
 {
-	background-color: #4CBD4D;
+	background-color: #04B45F;
 	height: 200px;
 	widows: 200px;
 }
@@ -99,7 +104,34 @@ color: black;
 }
 
 
+/*container-contact*/
 
+
+{outline: 1px solid red;}
+
+.container-contact 
+{
+	background-color: #04B45F;
+	height: 150px;
+	
+}
+
+.container-contact h1,p
+{
+color: white;
+
+}
+.container-contact h1
+{
+	margin-left: 80px;
+	margin-top: 
+}
+
+
+.container-form
+{
+	
+}
 
 
 

@@ -50,7 +50,7 @@ margin-bottom: 30px
 {
 	background-color: #04B45F;
 	height: 200px;
-	widows: 200px;
+	
 }
 
 .container-redes .row
@@ -124,19 +124,11 @@ color: white;
 .container-contact h1
 {
 	margin-left: 80px;
-	margin-top: 
+	 
 }
 
 
-.container-form
-{
-	
-}
-
-
-
-
-
+*{outline: 1px solid red;}
 
 
 

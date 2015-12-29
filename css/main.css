@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
-
 .clearfix {
   *zoom: 1;
 }
 
+}
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -17,40 +17,136 @@
 
 
 /*menu*/
-.header
+.navbar-inverse {
+    background-color: #082E4E;
+   
+}
+
+.portada
 {
-	background-color: #444565;
+	height: 492px;
 }
 
-
-
-.container-menu li {
-    background-color: #444565;
-    
-}
-
-.portada 
-{
-	background: url(../images/slider/bg1.jpg);
-height: 400px;
-width: 1260px;
-}
 
 .portada h2,p
 {
 color: white;
-margin-left: 30px;
-}
-.file
-{
-	width: 1275px;
-	background-color: red;
+margin-left: 80px;
 }
 
 .portada h2
 {
-	margin-top: 350px;
+	margin-top: 300px;
+
+	
 }
+.portada	p
+{
+margin-bottom: 30px
+}
+
+/*container-redes-sociales*/
+.container-redes
+{
+	background-color: #04B45F;
+	height: 200px;
+	widows: 200px;
+}
+
+.container-redes .row
+{
+	margin-left: 50px;
+	margin-right: -200px;
+}
+
+.container-redes i
+{
+font-size: 40px;
+color: white;
+border-radius: 30px;
+background-color: green;
+margin-top: 20px;
+}
+
+.icon-md {
+    height: 68px;
+    width: 68px;
+    line-height: 68px;
+    color: #fff;
+    margin-right: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+}
+
+/*our latest*/
+
+.container-latest
+{
+	background-color:#EAEAEA;
+	height: 380px;
+
+}
+.container-latest h3,p
+{
+color: black;
+}
+
+#our-latest .row
+{
+	margin: 0px 0px 0px 0px; 
+}
+
+.images
+{
+	background-color: white;
+
+}
+
+
+/*container-contact*/
+
+
+{outline: 1px solid red;}
+
+.container-contact 
+{
+	background-color: #04B45F;
+	height: 150px;
+	
+}
+
+.container-contact h1,p
+{
+color: white;
+
+}
+.container-contact h1
+{
+	margin-left: 80px;
+	margin-top: 
+}
+
+
+.container-form
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*aqui empiza container_clients*/
 .container_clients{
 	background-color: #FA5858;

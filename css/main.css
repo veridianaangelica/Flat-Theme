@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
-
 .clearfix {
   *zoom: 1;
 }
 
+}
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -17,61 +17,100 @@
 
 
 /*menu*/
-.header
-{
-	background-color: #444565;
+.navbar-inverse {
+    background-color: #082E4E;
+   
 }
 
-.container-menu{
-	width: 1260px;
-}
-
-.container-menu img
-{
-	margin-top: 10px;
-}
-
-.container-menu li {
-    background-color: #444565;
-    
-}
-
-.portada 
-{
-	background: url(../images/slider/bg1.jpg);
-height: 493px;
-width: 1260px;
-}
 
 .portada h2,p
 {
 color: white;
 margin-left: 80px;
 }
-.file
-{
-	width: 1275px;
-	background-color: red;
-}
 
 .portada h2
 {
-	margin-top: 200px;
-}
+	margin-top: 300px;
 
-.row
+	
+}
+.portada	p
 {
-	width: 1260px;
+margin-bottom: 30px
 }
 
-
-
+/*container-redes-sociales*/
 .container-redes
 {
 	background-color: #4CBD4D;
 	height: 200px;
 	widows: 200px;
 }
+
+.container-redes .row
+{
+	margin-left: 50px;
+	margin-right: -200px;
+}
+
+.container-redes i
+{
+font-size: 40px;
+color: white;
+border-radius: 30px;
+background-color: green;
+margin-top: 20px;
+}
+
+.icon-md {
+    height: 68px;
+    width: 68px;
+    line-height: 68px;
+    color: #fff;
+    margin-right: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+}
+
+/*our latest*/
+
+.container-latest
+{
+	background-color:#EAEAEA;
+	height: 380px;
+
+}
+.container-latest h3,p
+{
+color: black;
+}
+
+#our-latest .row
+{
+	margin: 0px 0px 0px 0px; 
+}
+
+.images
+{
+	background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -291,4 +291,17 @@ color: white;
 	width: 3px;
 	height: 70px;
 }
-/*aqui empieza services*/
+/*aqui termina services*/
+/*aqui empieza blog*/
+.container_blog{
+	background-color: #04B45F;
+	color:white;
+	height: 150px;
+}
+.list-nav li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+/*aqui termina blog*/

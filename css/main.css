@@ -227,3 +227,23 @@ color: white;
 
 }
 /*aqui termina about us*/
+/*aqui empieza services*/
+
+.container_services{
+	background-color: #04B45F;
+	color:white;
+	height: 150px;
+}
+.titulo{
+	color:black;
+	font-size: 18px;
+}
+.container_sistemas{
+	background-color: #EAEAEA;
+}
+.linea2{
+	background-color: #BDBDBD;
+	width: 3px;
+	height: 70px;
+}
+/*aqui empieza services*/

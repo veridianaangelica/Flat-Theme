@@ -240,10 +240,41 @@ color: white;
 	color:white;
 	height: 150px;
 }
+.list-nav{
+	padding:0;
+}
 .list-nav li{
 	list-style: none;
 	display: inline-block;
 	padding-left: 10px;
 }
-
+.list-1 li{
+	list-style: none;
+	padding: 0px;
+}
+.list-2 li{
+	list-style: none;
+	padding: 0;
+}
+.list-1{
+	padding: 0;
+}
+.list-2{
+	padding:0;
+}
+.list-labels li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.list-labels{
+	padding-left: 0;
+}
 /*aqui termina blog*/
+/*aqui empieza blog*/
+
+.list_tags li{
+	list-style: none;
+	display: inline-block;
+}
+/*aqui empieza blog*/

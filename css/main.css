@@ -15,8 +15,15 @@
   clear: both;
 }
 
+body {
+  color: #34495e;
+  background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 
 /*menu*/
+
 .navbar-inverse {
     background-color: #082E4E;
 
@@ -46,6 +53,41 @@ margin-left: 80px;
 margin-bottom: 30px
 }
 
+
+
+
+/*CARRUSEL*/
+
+
+
+#main-slider .carousel .item.active {
+    opacity: 1;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+    z-index: 1;
+}
+#main-slider .carousel .item:first-child {
+    top: auto;
+    position: relative;
+}
+#main-slider .carousel .item {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0 !important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    height: 600px;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+}
 /*container-redes-sociales*/
 .container-redes
 {
@@ -57,9 +99,12 @@ margin-bottom: 30px
 .container-redes .row
 {
 	margin-left: 50px;
-	margin-right: -200px;
+	
 }
-
+.row	
+{
+	margin-right: 0px;
+}
 .container-redes i
 {
 font-size: 40px;
@@ -137,7 +182,7 @@ color: white;
 }
 
 
-
+*{outline: 1px solid red;}
 
 
 

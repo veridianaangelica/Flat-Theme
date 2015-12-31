@@ -182,9 +182,6 @@ color: white;
 }
 
 
-*{outline: 1px solid red;}
-
-
 
 
 
@@ -270,6 +267,7 @@ color: white;
 	height: 50px;
 	background-color: #5858FA;
 
+
 }
 /*aqui termina about us*/
 /*aqui empieza services*/
@@ -329,10 +327,18 @@ color: white;
 	padding-left: 0;
 }
 /*aqui termina blog*/
-/*aqui empieza blog*/
+/*aqui empieza blog team*/
 
 .list_tags li{
 	list-style: none;
 	display: inline-block;
 }
-/*aqui empieza blog*/
+.list-date li{
+	list-style: none;
+	display: inline-block;
+}
+.list-reply li{
+	list-style: none;
+	display: inline-block;
+}
+/*aqui empieza blog team*/
